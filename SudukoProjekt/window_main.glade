@@ -91,7 +91,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
-                <signal name="clicked" handler="on_btnNewGame_clicked"/>
+                <signal name="clicked" handler="on_btnStartGame_clicked"/>
               </object>
               <packing>
                 <property name="position">1</property>
@@ -158,12 +158,12 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="btnRank">
-                <property name="label" translatable="yes">  Rankings  </property>
+              <object class="GtkButton" id="btnAbout">
+                <property name="label" translatable="yes">    About    </property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
-                <signal name="clicked" handler="on_btnRank_clicked"/>
+                <signal name="clicked" handler="on_btnAbout_clicked"/>
               </object>
               <packing>
                 <property name="position">1</property>
@@ -194,12 +194,12 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="btnAbout">
-                <property name="label" translatable="yes">    About    </property>
+              <object class="GtkButton" id="btnInformation">
+                <property name="label" translatable="yes">Information</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
-                <signal name="clicked" handler="on_btnAbout_clicked"/>
+                <signal name="clicked" handler="on_btnInformation_clicked"/>
               </object>
               <packing>
                 <property name="position">1</property>
@@ -230,12 +230,8 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="btnInformation">
-                <property name="label" translatable="yes">Information</property>
+              <object class="GtkFixed" id="fixed13">
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="receives_default">True</property>
-                <signal name="clicked" handler="on_btnInformation_clicked"/>
               </object>
               <packing>
                 <property name="position">1</property>
